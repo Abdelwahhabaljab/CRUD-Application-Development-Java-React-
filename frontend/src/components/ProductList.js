@@ -53,10 +53,12 @@ export default function ProductList() {
               <td>{p.description}</td>
               <td>{p.price}</td>
               <td>
+                <div className="action-buttons">
                 <Link to={`/edit/${p.id}`}>
                   <button>Modifier</button>
                 </Link>
                 <button onClick={() => handleDelete(p.id)}>Supprimer</button>
+                </div>
               </td>
             </tr>
           ))}
