@@ -79,11 +79,15 @@ style: improve UI with CSS
 docs: update README and add screenshot section
 
 📸 Captures d’écran (Frontend)
-![alt text](form.png)
-![alt text](productlist.png)
+![Formulaire produit][def]
+![Liste des produits][def2]
 
 
 
 🗃️ Données de test
 Un fichier schema.sql initialise la table product dans la base de données.
 
+
+
+[def]: C:\Users\abdelwahhab\Downloads\crudfullstack\screenshots\form.png
+[def2]: C:\Users\abdelwahhab\Downloads\crudfullstack\screenshots\productlist.png
