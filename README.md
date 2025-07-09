@@ -1,12 +1,15 @@
-🚀 Full-Stack Product Management App
+# 🚀  Full-Stack Product Management App
 Application CRUD de gestion de produits développée en Java Spring Boot (backend) et React.js (frontend). Ce projet est destiné à démontrer les bonnes pratiques de développement et de gestion de version avec Git pour un entretien technique.
 
-📁 Structure du projet
-
+# 📁 Structure du projet
+```
 crud-app/
 │
 ├── crudbackend/         # Backend - Spring Boot (Java)
-│   └── ...              # Controllers, Entities, Repositories, Services
+│   └──Controllers,
+|   └──Entities
+|   └──Repositories
+|   └──Services
 │
 ├── frontend/            # Frontend - React.js
 │   └── src/
@@ -16,8 +19,8 @@ crud-app/
 │
 ├── README.md            # Ce fichier
 └── .gitignore
-
-⚙️ Technologies utilisées
+```
+# ⚙️ Technologies utilisées
 Backend :
 
 Java 17
@@ -34,7 +37,7 @@ Axios
 
 CSS modules
 
-🔧 Installation et exécution
+# 🔧 Installation et exécution
 Backend (Spring Boot)
 
 cd crudbackend
@@ -48,7 +51,8 @@ npm install
 npm start
 Le frontend tourne sur http://localhost:3000.
 
-✨ Fonctionnalités
+# ✨ Fonctionnalités
+
 ✅ Affichage de la liste des produits
 
 ➕ Ajout d’un nouveau produit
@@ -61,7 +65,8 @@ Le frontend tourne sur http://localhost:3000.
 
 🔁 Redirections automatiques après ajout/modification
 
-🧪 Bonnes pratiques Git
+# 🧪 Bonnes pratiques Git
+
 Les commits ont été faits par étapes :
 
 chore: initialize Spring Boot project
@@ -78,16 +83,14 @@ style: improve UI with CSS
 
 docs: update README and add screenshot section
 
-📸 Captures d’écran (Frontend)
-![Formulaire produit][def]
-![Liste des produits][def2]
+# 📸 Captures d’écran (Frontend)
+![Formulaire produit](screenshots/form.png)
+![Liste des produits](screenshots/productlist.png)
 
 
 
-🗃️ Données de test
+# 🗃️ Données de test
 Un fichier schema.sql initialise la table product dans la base de données.
 
 
 
-[def]: C:\Users\abdelwahhab\Downloads\crudfullstack\screenshots\form.png
-[def2]: C:\Users\abdelwahhab\Downloads\crudfullstack\screenshots\productlist.png
